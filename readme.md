@@ -204,12 +204,13 @@ Imprimir un ejemplo de una reservación en Bedu Travels, incluyendo 5 elementos 
 -----------------------------------------------------------------
 RESERVACION                                        | PRECIO    
 -----------------------------------------------------------------
-Habitación doble                                   |  150000.00
-Transporte                                         |   13000.00
+Habitación doble                                   |   15000.00
+Transporte                                         |    3000.00
 Reservación en evento                              |    3999.99
 Tour en lancha                                     |   21750.00
 Alimentos y bebidas                                |    5000.00
 -----------------------------------------------------------------
+                                              Total|  164170.00
 ```
 
 ### Operadores lógicos
@@ -217,7 +218,32 @@ Los operadores lógicos permiten manipular variables booleanas (verdadero/falso)
 
 #### Ejemplo: tabla_verdad_and.py
 
+```
+---------------------
+Tabla de verdad
+---------------------
+A     | B     | A & B
+    1 |     1 |     1
+    1 |     0 |     0
+    0 |     1 |     0
+    1 |     0 |     0
+    0 |     0 |     0
+---------------------
+```
+
 #### Ejercicio: tabla_verdad_or.py
+```
+---------------------
+Tabla de verdad
+---------------------
+A     | B     | A | B
+    1 |     1 |     1
+    1 |     0 |     1
+    0 |     1 |     1
+    1 |     0 |     1
+    0 |     0 |     0
+---------------------
+```
 
 ## Estruturas de control
 
@@ -271,7 +297,7 @@ Numero 4
 De una lista de 10 numeros, imprimir en pantalla par o non, dependiendo de si son divisibles entre 2 o no.
 
 ```python
-In [8]: for i in range(10): 
+In [8]: for i in range(11): 
    ...:     if i % 2 == 0: 
    ...:         print("Par") 
    ...:     else: 
@@ -291,10 +317,55 @@ Non
 
 ```
 
+#### Ejercicio: tabla_multiplicar_ciclo.py
+
+Utiliza un ciclo for o un ciclo while con la
+
 #### Ejercicio: fizzbuzz.py
 
-Muestra en pantalla los números del 1 al 100, sustituyendo los múltiplos de 3 por la palabra “Fizz” y, a su vez, los múltiplos de 5 por “Buzz”. Para los números que, al tiempo, son múltiplos de 3 y 5, utiliza el combinado “FizzBuzz”.
+Muestra en pantalla los números del 1 al 20, sustituyendo los múltiplos de 3 por la palabra “Fizz” y, a su vez, los múltiplos de 5 por “Buzz”. Para los números que, al tiempo, son múltiplos de 3 y 5, utiliza el combinado “FizzBuzz”.
 
-## Actividad final
 
-Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado. Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+```
+
+## Actividad final: reservacion_apartado.py
+
+Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado, una nueva columna de cantidad, subtotal (cantaidad * precio), y el costo del apartado antes del total, equivalente a un 10% del costo total. Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
+
+```
+Quieres conocer el monto de apartado (s/n)? Si
+
+-----------------------------------------------------------------
+RESERVACION                   |CANTIDAD  | PRECIO     | SUBTOTAL    
+-----------------------------------------------------------------
+Habitación doble              |        7 |    1500.00 |
+Transporte                    |        2 |     700.00 |
+Reservación en evento         |        1 |    2000.99 |
+Tour en lancha                |        1 |     850.00 |
+Alimentos y bebidas           |        7 |    1200.00 |
+-----------------------------------------------------------------
+                                                Total|  164170.00
+                                            Apartado |  
+
+```
