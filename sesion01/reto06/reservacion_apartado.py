@@ -23,6 +23,8 @@ precio5 = 5000
 cantidad5 = 7
 subtotal5 = precio5 * cantidad5
 
+apartado = input("Desea conocer el apartado (si/no)?")
+
 total = subtotal1 + subtotal2 + subtotal3 + subtotal4 + subtotal5
 print("-"*63)
 print("{:32}|{:9}|{:9}|{:9}".format("RESERVACION", "CANTIDAD", "PRECIO", "SUBTOTAL"))
@@ -32,3 +34,5 @@ print("{:32}|{:9}|{:9.2f}|{:9.2f}".format(elemento3, cantidad3, precio3, subtota
 print("{:32}|{:9}|{:9.2f}|{:9.2f}".format(elemento4, cantidad4, precio4, subtotal4))
 print("{:32}|{:9}|{:9.2f}|{:9.2f}".format(elemento5, cantidad5, precio5, subtotal5))
 print("{:>{}}|{:{}.2f}".format("Total ", 32+9+9+2, total, 9))
+if len(apartado) > 0 and (apartado[0] == 'S' or apartado[0] == 's'):
+    print("{:>{}}|{:{}.2f}".format("Apartado ", 32+9+9+2, total/10.0, 9))
