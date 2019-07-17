@@ -1,7 +1,7 @@
 ### Reto 04
 
 `reservacion-con-diccionarios.py`
-Modifica el ejemplo del reto06 de la clase anterior, `reservacion-apartado.py`, para contener los productos en una sola variable, una lista con diccionarios. Las llaves de los diccionarios deben contener los valores de cada producto: nombre, precio, cantidad. Subtotal **no** debe formar parte del diccionario, calcularlo acorde.
+Modifica el ejemplo del reto06 de la sesión anterior, `reservacion-apartado.py`, para contener los productos en una sola variable, una lista con diccionarios. Las llaves de los diccionarios deben contener los valores de cada producto: nombre, precio, cantidad. Subtotal **no** debe formar parte del diccionario, calcularlo acorde.
 
 Utilizar ciclos para mostrar todos los productos.
 

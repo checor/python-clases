@@ -2,7 +2,7 @@
 
 Bienvenido a Python! Python es un lenguaje de programación de alto nivel, fácil de usar, versátil y potente. Es uno de los lenguajes más populares actualmente según el ínidce de TIOBE:
 
-![](..\imagenes\index_tiobe.png)
+![](../imagenes/index_tiobe.png)
 
 ## Objetivo
 
