@@ -1,111 +1,74 @@
-## Ejemplo 03
+## Ejemplo 04
 
-### Creando tu propio módulo
+### Módulo HTTP Server
 
-Los módulos en Python, son practicamente archivos con extensión .py, pensados para ser reutilizados. En ellos, se definen funciones, clases y variables, así como código de inicialización.
+Ofrece funcionalidad como servidor HTTP.
 
-`mi_primer_modulo.py`
-
-Este primer módulo debe escribir en pantalla: "Hola, soy tu primer módulo"
-
+`http-ejemplo.py`
 ```python
-In [1]: !cat mi_primer_modulo.py
-print("Hola, soy tu primer módulo")
+In [1]: import http.server
 
-In [2]: import mi_primer_modulo
-Hola, soy tu primer módulo
+In [2]: http.server? 
 
-In [3]: # Si lo importamos de nuevo, no se ejecutara de vuelta ese codigo
-
-In [4]: import mi_primer_modulo
-
-In [5]: 
-```
-
-El código que contiene cualquier código sólo es ejecutado una vez, una vez que está importado, permanece en caché.
-
-`tablas.py`
-
-Este módulo deberá contener una función llamada `tabla(n)`, y deberé de imprimir la tabla del número n en pantalla. Sólo debe de contener la función dentro, sin que sea llamado.
-
-```python
-In [1]: !cat tablas.py
-def tabla(n):
-    for i in range(1,11):
-        print("{} x {} = {}".format(n, i, n * i))
-In [2]: import tablas
-
-In [3]: tablas.tabla(3)
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
-
-In [4]: tablas.tabla?
-Signature: tablas.tabla(n)
-Docstring: <no docstring>
-File:      ~/dev/python-clases/sesion03/ejemplo03/tablas.py
-Type:      function
-```
-
-`tablas2.py`
-
-Los scripts en Python, pueden ser módulo y función a la vez, agregando una sección que sólo se ejecutará si se llamó directamente:
-
-```python
-if __name__ == "__main__":
-    print("Me acabas de llamar directamente!")
-```
-
-También podemos escribir strings de documentación, definida entre 3 comillas dobles, a nivel módulo, función o clase.
-
-Modificando el script `tablas.py`, agregando docstrings, y funcionamiento como archivo indepiendente, obtenemos lo siguiente:
-
-```python
-$ python3 tablas2.py 
-TABLA DE DEL 3
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
-
-$ipython
-
-In [1]: import tablas2
-
-In [2]: tablas2?
 Type:        module
-String form: <module 'tablas2' from '/home/sergio/dev/python-clases/sesion03/ejemplo03/tablas2.py'>
-File:        ~/dev/python-clases/sesion03/ejemplo03/tablas2.py
-Docstring:   Módulo para imprimir tablas de multiplicar en la pantalla.
+String form: <module 'http.server' from '/usr/lib/python3.6/http/server.py'>
+File:        /usr/lib/python3.6/http/server.py
+Docstring:  
+HTTP server classes.
 
-In [3]: tablas2.tabla?
-Signature: tablas2.tabla(n)
-Docstring: Imprime la tabla N en la pantalla
-File:      ~/dev/python-clases/sesion03/ejemplo03/tablas2.py
-Type:      function
+Note: BaseHTTPRequestHandler doesn't implement any HTTP request; see
+SimpleHTTPRequestHandler for simple implementations of GET, HEAD and POST,
 
-In [4]: tablas2.tabla(3)
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
+In [4]: http.server.SimpleHTTPRequestHandler?  
+
+Init signature: http.server.SimpleHTTPRequestHandler(request, client_address, server)
+Docstring:     
+Simple HTTP request handler with GET and HEAD commands.
+
+This serves files from the current directory and any of its
+subdirectories.  The MIME type for files is determined by
+calling the .guess_type() method.
+
+In [4]: exit()
+
+$ python3 -m http.server
+
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) 
+```
+
+Al acceder a http://0.0.0.0:8000/, se verá algo como esto:
+
+![Imagen](server.png)
+
+### Módulo urllib
+
+urllib es un paquete que contiene módulos centrados en abrir y leer herramientas.
+
+`urllib-ejemplo.py`
+```python
+In [1]: import urllib
+
+In [2]: urllib?  
+
+Type:        module
+String form: <module 'urllib' from '/usr/lib/python3.6/urllib/__init__.py'>
+File:        /usr/lib/python3.6/urllib/__init__.py
+Docstring:   <no docstring>
+
+In [3]: from urllib import request 
+
+In [4]: request?
+
+Type:        module
+String form: <module 'urllib.request' from '/usr/lib/python3.6/urllib/request.py'>
+File:        /usr/lib/python3.6/urllib/request.py
+Docstring:  
+An extensible library for opening URLs using a variety of protocols
+
+In [5]: r = request.urlopen("http://www.example.com")
+
+In [6]: r.read()
+
+Out[6]: b'<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 50px;\n        background-color: #fff;\n        border-radius: 1em;\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        body {\n            background-color: #fff;\n        }\n        div {\n            width: auto;\n            margin: 0 auto;\n            border-radius: 0;\n            padding: 1em;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\n    domain in examples without prior coordination or asking for permission.</p>\n    <p><a href="http://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
+
 ```
