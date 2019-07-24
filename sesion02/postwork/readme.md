@@ -1,6 +1,6 @@
 # Postwork
 
-## Obejtivos
+## Objetivos
 
 Aplicar las estructuras y funciones vistas en la sesisón, para darle un mejor formato al proyecto. El uso de de estructuras de datos no ayuda a organizar de mejor manera los mismos, y las funciones evitan que repitamos piezas de código.
 
