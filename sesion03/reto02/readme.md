@@ -2,8 +2,10 @@
 
 `lista_de_archivos_fecha.py`
 
-Agrega información de la fecha de modificación en un archivo. Utiliza las funciones vistas anteriormente para obtener la fecha. Muestra también la carpta actual.
-Muestra la fecha en un formato diferente al original. Revisa la documentación de la función strftime que incluye datetime, para darle formato.
+* Agrega información de la fecha de modificación en un archivo. Utiliza las funciones vistas anteriormente para obtener la fecha. 
+* Muestra también la carpta actual.
+* Muestra la fecha en un formato diferente al original. 
+* Revisa la documentación de la función strftime que incluye datetime, para darle formato.
 
 ```
 --------------------------------------------------------------------------------
