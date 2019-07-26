@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-* Conocer la sintaxis básica de Python
+* Conocer la sintaxis básica de Python.
 * Utilizar variables y tipos de datos; operadores lógicos y condiciones, así como ciclos de control.
 * Crear los primeros programas en Python.
 
