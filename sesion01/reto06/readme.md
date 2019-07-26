@@ -1,6 +1,7 @@
 ## Actividad final: reservacion_apartado.py
 
-Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado, una nueva columna de cantidad, subtotal (cantaidad * precio), y el costo del apartado antes del total, equivalente a un 10% del costo total. Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
+* Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado, una nueva columna de cantidad, subtotal (cantaidad * precio), y el costo del apartado antes del total, equivalente a un 10% del costo total. 
+* Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
 
 ```
 Quieres conocer el monto de apartado (s/n)? Si
