@@ -1,5 +1,5 @@
 #### Reto: operaciones.py
-Crea dos variables, y muestra en pantalla las operaciones básicas aritméticas entre ellos: Suma, resta, multiplicación, divisón.
+Crea dos variables, y muestra en pantalla las operaciones básicas aritméticas entre ellos: Suma, resta, multiplicación y división.
 
 ```
 $ python3 operaciones.py
