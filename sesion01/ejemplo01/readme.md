@@ -1,12 +1,12 @@
 # Python fundamentals
 
-Bienvenido a Python! Python es un lenguaje de programación de alto nivel, fácil de usar, versátil y potente. Es uno de los lenguajes más populares actualmente según el ínidce de TIOBE:
+¡Bienvenido a Python! Python es un lenguaje de programación de alto nivel, fácil de usar, versátil y potente. Es uno de los lenguajes más populares actualmente según el ínidce de TIOBE:
 
 ![](../imagenes/index_tiobe.png)
 
 ## Objetivo
 
-Conocer la sintaxis básica de Python, variables y tipos de datos; operadores lógicos y condiciones, así como ciclos de control.
+* Conocer la sintaxis básica de Python, variables y tipos de datos; operadores lógicos y condiciones, así como ciclos de control.
 
 ## Usos
 
@@ -23,13 +23,13 @@ La instalación dependerá del sistema operativo que tengamos. Para este curso, 
 
 ### Windows
 
-Descargar el instalador de la última versión de Python 3 desde https://python.org, y seguir las instrucciones del instalador. También puedes descargar [Ubuntu para Windows 10](https://www.microsoft.com/es-mx/p/ubuntu/9nblggh4msv6), y así tener un sistema Linux en tu equipo, accesible desde Windows.
+Descargar el instalador de la última versión de Python 3 desde https://python.org, y seguir las instrucciones del instalador. También puedes descargar [Ubuntu para Windows 10](https://www.microsoft.com/es-mx/p/ubuntu/9nblggh4msv6), y así tener un sistema Linux en tu equipo accesible desde Windows.
 
 ### Linux
 Python 3 ya se encuentra disponible en la mayoría de distribuciones Linux. Basta con instalar la herramienta `pip`, que utilizaremos más adelante, mediante el comando el consola (Debian y Ubuntu): `sudo apt-get install python3-pip`.
 
 ### Mac OS X
-Para Mac, la forma de instalación recomendada es mediante *Homebrew*, un gestor de paquetes para Mac. Seguir las instrucciones de instalación en https://brew.sh, y posteriormente correr el comando `brew install python3`.
+Para Mac, la forma de instalación recomendada es mediante *Homebrew*, un gestor de paquetes para Mac. Sigue las instrucciones de instalación en https://brew.sh, y posteriormente corre el comando `brew install python3`.
 
 Una vez que tengamos instalado Python, podemos revisar que esté instalado correctamente mediante el comando:
 ```bash
@@ -42,7 +42,7 @@ Ahora estamos listos para correr nuestro primer programa en Python.
 
 Cuando Python 3 salió al mundo, en 2008, tuvo una serie de cambios que lo hacían incompatible con código escrito de Python 2, así como librerías. Esto hizo que su nivel de adopción fuera bajo comparado con su antecesor. Esto fue cambiando gradualmente con el paso de los años.
 
-Actualmente, se recomienda utilizar Python 3 para todo nuevo proyectos, Python 2 dejará de tener soporte para 2020. En proyectos con Python 2, se debe contemplar una estrategia para migrar a Python 3.
+Actualmente, se recomienda utilizar Python 3 para todo nuevo proyecto, Python 2 dejará de tener soporte para 2020. En proyectos con Python 2, se debe contemplar una estrategia para migrar a Python 3.
 
 ## Hola Mundo
 El ejercicio primerizo por defecto, en cualquier lenguaje, es escribir Hola Mundo en nuestra pantalla. En Python, basta con crear un archivo con el siguiente contenido:
