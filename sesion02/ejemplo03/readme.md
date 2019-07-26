@@ -44,7 +44,7 @@ AttributeError: 'tuple' object has no attribute 'insert'
 
 ### Sets
 
-Los conjuntos o *sets*, son solecciones no mutables y no ordenadas, utilizados principalmente en operaciones de lógica y matemática.
+Los conjuntos o *sets*, son colecciones no mutables y no ordenadas, utilizadas principalmente en operaciones de lógica y matemática.
 
 A diferencia de las listas y tuplas, al no estar ordenadas, no se puede acceder mediante un índice. Se puede utlizar un *for* para acceder a todos sus elementos uno por uno. Tampoco permite elementos repetidos.
 
