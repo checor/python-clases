@@ -4,7 +4,7 @@
 
 Son piezas de código delimitadas y que se les puede asignar un nombre, con el objetivo de modularizar o reutilizarse.
 
-Una función puede recibir argumentos, y a su vez, retornar algún valor, si se require.
+Una función puede recibir argumentos, y a su vez, retornar algún valor, si se requiere.
 
 `funciones.py`
 ```python
