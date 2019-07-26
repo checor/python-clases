@@ -4,7 +4,7 @@
 
 Modificar el script del reto04 `reservacion-con-diccionarios.py`, para que se ordenen sus resultados, basándose en el subtotal de cada producto.
 
-Utilizar la función sort de la lista de diccionarios, e indicarle mediante el lambda, como calcular el subtotal, para que lo ordene de esa manera, en un orden de mayor a menor.
+Utilizar la función sort de la lista de diccionarios, e indicarle mediante el lambda, cómo calcular el subtotal para que lo ordene de esa manera, en un orden de mayor a menor.
 
 ```
 Desea conocer el apartado (si/no)?si
