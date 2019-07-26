@@ -2,7 +2,7 @@
 
 ### Funciones lambda
 
-Las funciones lambda son funciones anónimas, es decir, sin un nombre, y por lo general se utilzan una sola vez. Normalmente se crean para pasarlas a otras funciones de orden superior.
+Las funciones lambda son funciones anónimas, es decir, sin un nombre, y por lo general se utilizan una sola vez. Normalmente se crean para pasarlas a otras funciones de orden superior.
 
 `funciones-lambda.py`
 ```python
@@ -21,9 +21,9 @@ Hola Bedu!
 
 `lambda-sort.py`
 
-Las listas puede ordenarse mediante la función sort. Normalmente, se ordenan de menor a mayor. Este comportamiento se puede cambiar mediante una función lambda.
+Las listas pueden ordenarse mediante la función *sort*. Normalmente, se ordenan de menor a mayor. Este comportamiento se puede cambiar mediante una función lambda.
 
-Crear una lambda para invertir el orden de una lista de 5 elementos.
+* Crea una lambda para invertir el orden de una lista de 5 elementos.
 
 ```
 Lista antes de ordenar: [1, 5, 5, 1, 7]
