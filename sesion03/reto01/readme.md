@@ -1,7 +1,7 @@
 ## Reto1
 `lista_de_archivos_fecha.py`
 
-utilziando el script anterior, ordena los resultados antes de mostrarlos, por tamaño de archivo. Utiliza estructuras de datos y la función lambda para lograrlo.
+Utilizando el script anterior, ordena los resultados por tamaño de archivo, antes de mostrarlos.  Utiliza estructuras de datos y la función lambda para lograrlo.
 
 ```
 ----------------------------------------
