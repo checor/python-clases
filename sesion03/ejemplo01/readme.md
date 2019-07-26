@@ -1,6 +1,6 @@
 ## Ejemplo 01
 
-### Módulos y pauquetes
+### Módulos y paquetes
 
 Un módulo es un archivo de Python cuyos objetos (funciones, clases, excepciones, etc.) pueden ser accedidos desde otro archivo. Se trata simplemente de una forma de organizar grandes códigos. Un paquete, por su parte, es una carpeta que contiene varios módulos.
 
