@@ -2,7 +2,7 @@
 
 ### Diccionarios
 
-Son objetos contenedores que contienen una llave (*key*), y un valor(*value*). Se accede a sus valores mediante el nombre de la llave, por lo cual se conoces como diccionarios.
+Son objetos contenedores que contienen una llave (*key*), y un valor(*value*). Se accede a sus valores mediante el nombre de la llave, por lo cual se les conoce como diccionarios.
 
 `diccionarios.py`
 ```python
