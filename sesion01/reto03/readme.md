@@ -17,7 +17,7 @@ TABLA DEL 4
 
 #### Reto: reservacion.py
 
-Imprimir un ejemplo de una reservación en Bedu Travels, incluyendo 5 elementos a mostrar con precio. Utilizar format para mostrarlo en forma de tabla.
+Imprimir un ejemplo de una reservación en Bedu Travels, incluyendo 5 elementos a mostrar con precio. Utiliza format para mostrarlo en forma de tabla.
 
 ```
 -----------------------------------------------------------------
