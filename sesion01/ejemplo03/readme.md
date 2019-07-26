@@ -28,7 +28,7 @@ In [17]: "Hola" + " Mundo"
 Out[17]: 'Hola Mundo'
 
 ```
-Python no convierte automáticamente tipos de datos, por lo cual, no podemos hacer una suma desde con un numero entero y una cadena. Esto lo hace un lenguaje **fuertemente tipado**. Podemos convertir datos utilizando con el nombre del tipo de dato, y el dato entre paréntesis.
+Python no convierte automáticamente tipos de datos, por lo cual, no podemos hacer una suma con un numero entero y una cadena. Esto lo hace un lenguaje **fuertemente tipado**. Podemos convertir datos utilizando el nombre del tipo de dato, y el dato entre paréntesis.
 
 ```
 In [18]: 5 + "5"                                                                                                                                                                             
@@ -62,4 +62,4 @@ Out[23]: '4 * 4 = 16'
 ```
 
 ### Formato de cadenas
-La función format tiene una gran cantidad de configuraciones para insertar nuestros datos en una cadena. Podemos conocer mas a fondo su funcionamiento en la página https://pyformat.info
+La función format tiene una gran cantidad de configuraciones para insertar nuestros datos en una cadena. Podemos conocer más a fondo su funcionamiento en la página https://pyformat.info
