@@ -1,13 +1,13 @@
 ## Librería estándar
 
-La libería estándar ofrece una cantidad de objetos y funciones, algunos escritos en C, otros en Python. Posee desde insteración del sistema operativo (os), fechas (datetime), hasta un pequeño servidor web!
+La libería estándar ofrece una cantidad de objetos y funciones, algunos escritos en C, otros en Python. Posee desde interación del sistema operativo (os), fechas (datetime), hasta un pequeño servidor web!
 
 https://docs.python.org/3/library/
 
 
 ## Fechas en python
 
-Python tiene el módulo datetime para poder representar fechas y horas. Se recomienda revisar su ayuda y documentación para conocer más acerca del mismo.
+Python tiene el módulo *datetime* para poder representar fechas y horas. Se recomienda revisar su ayuda y documentación para conocer más acerca del mismo.
 
 `fechas.py`
 
