@@ -19,3 +19,4 @@ while cont:
         else:
             print("Respuesta no válida")
             valid = False
+    print("")
