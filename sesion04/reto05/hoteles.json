@@ -1,0 +1,9 @@
+[{
+    "nombre": "Exelaris", 
+    "ubicacion": "Celaya",
+    "precio": 1500
+ },
+ {  "nombre":"Casablanca",
+    "ubicacion": "Cardenas",
+    "precio": 800
+}]

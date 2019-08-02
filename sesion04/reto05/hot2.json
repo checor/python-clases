@@ -1,0 +1,12 @@
+[
+    {
+        "ubicacion": "Celaya", 
+        "nombre": "Exelaris", 
+        "precio": "1500"
+    }, 
+    {
+        "ubicacion": "Cardenas", 
+        "nombre": "Casablanca", 
+        "precio": "800"
+    }
+]
