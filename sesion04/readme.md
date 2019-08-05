@@ -19,7 +19,7 @@
 * JSON
    * [Ejemplo 03](ejemplo03/readme.md)
    * [Reto 03](reto03/readme.md)
-* Argumentos y excpeciones
+* Argumentos y excepciones
    * [Ejemplo 04](ejemplo04/readme.md)
    * [Reto 04](reto04/readme.md)
 * Reto Final
