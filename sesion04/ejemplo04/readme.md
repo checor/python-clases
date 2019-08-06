@@ -14,7 +14,7 @@ import sys
 for arg in sys.argv:
     print(arg)
 ```
-El cual, al ser llamdado con argumentos, los podremos visualizar en pantalla:
+El cual, al ser llamado con argumentos, lo podremos visualizar en pantalla:
 
 ```
 $ python argumentos.py estos son mis argumentos
