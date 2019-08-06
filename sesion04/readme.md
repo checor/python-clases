@@ -5,7 +5,7 @@
 
 - Abrir, crear y editar archivos de textos con Python
 - Crear archivos CSV mediante las librería ídem
-- Convertir diccionarios a JSON y vicecersa, así como archivos
+- Convertir diccionarios a JSON y viceversa, así como archivos
 - Conocer y atrapar excepciones en un script de Python
 
 ### Organización de la sesión
