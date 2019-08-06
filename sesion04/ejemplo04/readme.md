@@ -25,12 +25,12 @@ mis
 argumentos
 ```
 
-Nótese que siempre el primer argumento será como llamó el usuario el programa o script.
+Nótese que siempre el primer argumento será cómo llamó el usuario el programa o script.
 
 
 ## Excepciones
 
-Cuando nuestro programa falla en alguna parte, levanta una excepción y detiene la ejecución del programa. Las excepciones pueden controlase mediante el uso de **try** y **except**.
+Cuando nuestro programa falla en alguna parte, levanta una excepción y detiene la ejecución del programa. Las excepciones pueden controlarse mediante el uso de **try** y **except**.
 
 `excepciones.py`
 
@@ -52,7 +52,7 @@ In [2]: try:
 10.5 no es un entero
 ```
 
-A **except** se le puede indicar que tipo de excepciones capturar. Esto es recomendable para evitar que si el programa falle por otra causa no esperada, aplicar una acción incorrecta. También se pueden utilizar múltiples excepts para un try.
+A **except** se le puede indicar que tipo de excepciones capturar. Esto es recomendable para evitar que si el programa falla por otra causa no esperada, aplicar una acción incorrecta. También se pueden utilizar múltiples excepts para un try.
 
 `except_archivo.py`
 ```python
