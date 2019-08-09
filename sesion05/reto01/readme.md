@@ -1,10 +1,10 @@
 ## Reto 01
 
-Para el sistema de reservación de Bedu Travels, crear una clase llamada Producto la cual contendrá los elementos clave para cada elemento de una reservacion. Cambiar la lista de diccionarios que tenía originalmente, por una lista de objetos.
+Para el sistema de reservación de Bedu Travels, crear una clase llamada Producto la cual contendrá los elementos clave para cada elemento de una reservacion. Cambiar la lista de diccionarios que tenía originalmente por una lista de objetos.
 
 [Clase Producto](./clase_producto.png)
 
-La función subtotal, será calculada con base al precio por cantidad, como atributos. De la misma manera, IVA, dará el 16% del subtotal.
+La función subtotal será calculada con base al precio por cantidad como atributos. De la misma manera, IVA, dará el 16% del subtotal.
 
 ```
 $ python3 main.py 

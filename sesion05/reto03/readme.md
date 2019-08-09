@@ -1,10 +1,10 @@
 ## Reto 03
 
-Para el sistema de reservación, agrega una nueva clase llamada Hotel, que herede de producto, para incluir informacion extra acerce del mismo en la reservación. El subtotal, ahora será calculado por cantidad * precio * personas.
+Para el sistema de reservación, agrega una nueva clase llamada Hotel, que herede de producto, para incluir información extra acerca del mismo en la reservación. El subtotal ahora será calculado por cantidad * precio * personas.
 
 [Clase Hotel](./hotel.png)
 
-Agregar la columna de Personas, e utilizar la función `isinstance`, para saber si es hotel o producto.
+Agregar la columna de Personas, y utilizar la función `isinstance`, para saber si es hotel o producto.
 
 ```
 Desea conocer el apartado (si/no)?si

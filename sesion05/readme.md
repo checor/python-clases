@@ -3,9 +3,9 @@
 
 ### Objetivos
 
-- Conocer el paradigma de programación orientada a objectos
+- Conocer el paradigma de programación orientada a objetos
 - Crear clases e instanacias con Python
-- Conocer y usar los conceptops de herencia y plimorfismo
+- Conocer y usar los conceptos de herencia y polimorfismo
 - Usar decoradores en Python
 
 ### Organización de la sesión

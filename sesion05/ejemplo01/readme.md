@@ -64,9 +64,9 @@ Nombre: Cerdo - Especie Porcino
 
 ## Métodos integrados
 
-Todas las clases en Python 3 cuentan que ciertos métodos integrados, que sirven de apoyo y mejor uso de los objetos. Algunas importantes son:
+Todas las clases en Python 3 cuentan con ciertos métodos integrados, que sirven de apoyo y mejor uso de los objetos. Algunas importantes son:
 
-`__init__` - Llamada al crear un ojecto.
+`__init__` - Llamada al crear un objeto.
 `__del__` - Llamada a punto de destruir un objeto.
 `__str__` - Representación en string de un objeto.
 `__bool__` - Para evaluar el objeto como booleano.

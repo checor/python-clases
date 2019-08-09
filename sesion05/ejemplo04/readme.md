@@ -2,7 +2,7 @@
 
 ### Polimorfismo
 
-Se refiere a la habilidad de objetos de distintas clases a responder a un mismo mensaje. Puedes ser mediante herencia, o mediante clases diferentes, lo que se conoce en Python como *duck typying*: manejo de objetos sin definir la clase.
+Se refiere a la habilidad de objetos de distintas clases a responder a un mismo mensaje. Puede ser mediante herencia o mediante clases diferentes, lo que se conoce en Python como *duck typying*: manejo de objetos sin definir la clase.
 
 `poli.py`
 ```python
@@ -31,7 +31,7 @@ Soy la segunda clase, la B
 
 `animales_tabla.py`
 
-Con las clases creadsa anteriormente, Animal y Ave, mostrar en pantalla sus atributos, mediante la función `__str__`.
+Con las clases creadas anteriormente: Animal y Ave, mostrar en pantalla sus atributos, mediante la función `__str__`.
 Utilizar una misma función llamada `imprimir`, que funcione con ambos tipos de clases.
 
 ```
