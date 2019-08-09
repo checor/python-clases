@@ -50,7 +50,7 @@ Tiempo de ejecucion: 1.07 msecs
  
 ### Decorador @property
 
-Este decorador, se utiliza para leer o escribir atributos mediante funciones, o bien, hacerloa de sólo lectura. En otros lenguajes, es mejor conocido como setters y getters. Veamos este ejemplo:
+Este decorador se utiliza para leer o escribir atributos mediante funciones, o bien, hacerlo de sólo lectura. En otros lenguajes, es mejor conocido como setters y getters. Veamos este ejemplo:
 
 `dec_property.py`
 Crear una clase llamada TemperaturaC que permita almacenar una temperatura en grados Celcius. Prevenir cualquier temperatura debajo de -273° C (cero absoluto).
