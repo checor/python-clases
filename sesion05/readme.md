@@ -1,10 +1,10 @@
 # Sesión 05
-## Programación orientada a objetos
+## Programación Orientada a Objetos
 
 ### Objetivos
 
 - Conocer el paradigma de programación orientada a objetos
-- Crear clases e instanacias con Python
+- Crear clases e instancias con Python
 - Conocer y usar los conceptos de herencia y polimorfismo
 - Usar decoradores en Python
 
