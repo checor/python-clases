@@ -1,4 +1,0 @@
-Casablanca	Michoacan	400
-Camelinas	Mich	300
-Vallehermoso	Chi	800
-Agg	Tmr	300

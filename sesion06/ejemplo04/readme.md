@@ -51,3 +51,39 @@ Una Web API entrega códigos de estado para indicar el resultado de la operació
 * 5xx: Error por parte del servidor
 
 ![Status codes](./status_codes.png)
+
+## Métodos HTTP
+
+En una Web API, se utilizan los métodos o verbos HTTP para indicar el tipo de operación que se desa realizar.
+
+Los más utilizados son:
+
+* GET: Obtiene el recurso
+* POST: Agrega un nuevo recurso
+* PUT: Edita un recurso existente
+* DELETE: Borra un recurso
+
+`http_metodos.py`
+
+```python
+In [1]: import requests
+
+In [2]: requests.get("https://jsonplaceholder.typicode.com/posts") # Obtener múltiples elementos
+Out[2]: <Response [200]>
+
+In [3]: requests.get("https://jsonplaceholder.typicode.com/posts/1") # Obtener un elemento
+Out[3]: <Response [200]>
+
+In [4]: requests.post("https://jsonplaceholder.typicode.com/posts", json={"post": "Nuevo post de ejemplo"}) # Nuevo elemento
+Out[4]: <Response [201]>
+
+In [5]: requests.put("https://jsonplaceholder.typicode.com/posts/1", json={"post": "Editado"}) # Editar elemento
+Out[5]: <Response [404]>
+
+In [12]: requests.delete("https://jsonplaceholder.typicode.com/posts/1")  # Borrar elemento
+Out[12]: <Response [200]>
+
+In [13]: requests.delete("https://jsonplaceholder.typicode.com/noexiste")  # Elemento no existente
+Out[13]: <Response [404]>
+````
+
