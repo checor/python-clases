@@ -1,7 +1,7 @@
 ## Ejemplo 02
 ## Bottle.py
 
-Bottle.py es un micro framework para crear aplicaciones web que de forma sencilla, no tiene dependencias fuera de la librería estándar de Python y debido a que todo el framework vive en un solo script, se puede considerar portable.
+Bottle.py es un micro framework para crear aplicaciones web de forma sencilla, no tiene dependencias fuera de la librería estándar de Python y debido a que todo el framework vive en un solo script, se puede considerar portable.
 
 ### Instalación
 
@@ -9,11 +9,11 @@ Para su instalación, se puede descargar directamente de su sitio [bottle.py](ht
 
 `pip3 install bottle`
 
-Como es portable, si se descargam se puede colocar en la misma carpeta que se encuentre el archivo/proyecto a correr.
+Como es portable, si se descargan se puede colocar en la misma carpeta que se encuentre el archivo/proyecto a correr.
 
 `hola_bottle.py`
 
-Utilizar el módulo bottle para mostrar un mensaje estilo "Hola Mundo" en este caso, con un parámetro en su ruta que permita definir el nombre a utilizar en el saludo.
+Utilizar el módulo bottle para mostrar un mensaje estilo "Hola Mundo!" en este caso, con un parámetro en su ruta que permita definir el nombre a utilizar en el saludo.
 
 ```
 $ python3 hola-bottle.py 
@@ -27,7 +27,7 @@ Hit Ctrl-C to quit.
 
 ### Templates
 
-En el ejemplo anterior, para mostrar contenido dinámico en la página, se utilizó la función `template`, la cual puede insertar variables en el HTML, o ejecutar porciones de código incrustrado.
+En el ejemplo anterior, para mostrar contenido dinámico en la página, se utilizó la función `template` la cual puede insertar variables en el HTML, o ejecutar porciones de código incrustrado.
 
 `tabla_html.py`
 
