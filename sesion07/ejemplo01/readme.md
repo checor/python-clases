@@ -1,4 +1,4 @@
-## Itroducción
+## Introducción
 
 Web scrapping es una técnica para obtener información de sitios web, con el proósito de convertirlos en información útil y esto sean almacenados en alguna base de datoso o mostrados directamente al usuario.
 
@@ -15,7 +15,7 @@ $ pip install beautifoulsoup4
 $ pip install requests
 ```
 
-### Obejto BeautifulSoup
+### Objeto BeautifulSoup
 
 Un objeto BeautifulSoup es el putno de partida de cualquier proyecto de scraping con la librería. Representa un archivo HTML o XML, del cual se puede navegar en el y encontrar los datos relevantes.
 
@@ -52,9 +52,19 @@ Invitar al alumno a realizar el ejemplo con su página favorita.
 
 ### Encontrando elementos
 
-El comando `find_all` sirve para encontrar todos las etiquetas dentro del documento. Para facilitar la búsqueda de elementos, BS tiene los siguientes métodos:
+El comando `find_all` sirve para encontrar todos las etiquetas dentro del documento. Para facilitar la búsqueda de elementos, BS tiene variedad de métodos, como los siguientes:
 
-* find()
-* find_all()
-* find  
+* find(): Encuentra un elemento de acuerdo al cursor donde se encuentre.
+* find_all(): Entrega una lista de todos los elementos en el documento.
+* find_parent(): Entrega el elemente padre inmediato.
+* find_next_sibling(): Entrega el siguiente elemento, al mismo nivel de herencia.
 
+Cualquiera se puede utilizar recursivamente.
+
+`find_piramide.py`
+
+Utilizar el HTML de ejemplo, piramide.html, para realizar las siguientes tareas.
+
+1. Listar a los productores de la pirámide alimenticia.
+2. El número total de todos los elementos.
+3. El nombre de las clases padre del elemento con nombre Tigre.
