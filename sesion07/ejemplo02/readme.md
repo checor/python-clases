@@ -21,3 +21,9 @@ Utilizando úncamente la navegación para moverse entre elementos, enlistar:
 1. Cantidad de hijos en la ecopirámide.
 2. Nombre de todos los productores.
 3. Cantidad total de consumidores.
+
+
+
+### Contenido de elementos
+
+### Aqui ira el contenido de elementos
