@@ -50,6 +50,67 @@ Out[8]: [<img alt="Google" height="92" id="hplogo" src="/images/branding/googlel
 Invitar al alumno a realizar el ejemplo con su página favorita.
 
 
+### Tipos de objetos
+
+BS transforma un documento HTML, que puede provenir de la web o de un archivo, en un árbol de objetos de Python. Esto objetos puede ser: *Tag*, *NavigableString* y *Comment*.
+
+`objetos_soup.py`
+
+```python
+In [1]: from bs4 import BeautifulSoup
+
+In [2]: # TAG: Corresponde a un objeto HTML dentro del documento original
+
+In [3]: soup = BeautifulSoup('<b class="bold" id="1">Saludos!</b>')
+
+In [4]: tag = soup.p # Accediendo al tag <b> 
+
+In [5]: type(tag)
+Out[5]: bs4.element.Tag
+
+In [6]: # El atributo name define el tipo de tag que es 
+
+In [7]: tag.name = "blockquote" 
+
+In [8]: tag
+Out[8]: <blockquote class="bold" id="1">Saludos!</blockquote>
+
+In [9]: tag["class"]  
+Out[9]: ['bold']
+
+In [10]: tag["id"] = "2" 
+
+In [11]: tag
+Out[11]: <blockquote class="bold" id="2">Saludos!</blockquote>
+```
+
+Para el caso de los comentarios y texto dentro o entre tags, se manejan de forma similar a un string de Python, con la diferencia que para cambiar su contenido, se utiliza el método `replace_with`.
+
+`strings_soup.py`
+
+```python
+In [12]: # NavigableString es muy similar a un string de Python, sólo cambia como se reemplaza
+
+In [13]: tag.string    
+Out[13]: 'Saludos!'
+
+In [14]: type(tag.string) 
+Out[14]: bs4.element.NavigableString
+
+In [15]: tag.string.replace_with("Bienvenidos!") 
+
+In [16]: tag
+Out[16]: <blockquote class="bold" id="2">Bienvenidos!</blockquote>
+
+In [17]: soup = BeautifulSoup("<b><!--Yo soy un comentario HTML--></b>")
+
+In [18]: soup.b.string
+Out[18]: 'Yo soy un comentario HTML'
+
+In [19]: type(soup.b.string)
+Out[19]: bs4.element.Comment
+```
+
 ### Encontrando elementos
 
 El comando `find_all` sirve para encontrar todos las etiquetas dentro del documento. Para facilitar la búsqueda de elementos, BS tiene variedad de métodos, como los siguientes:

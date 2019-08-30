@@ -16,13 +16,23 @@ Para navegar a los lados, se tienen los atributos `next_sibling` y `previous_sib
 
 `navegacion_piramide.py`
 
-Utilizando úncamente la navegación para moverse entre elementos, enlistar:
+Utilizando úncamente la navegación para moverse entre elementos, enlistar la pirámide en orden, con su debida tabulación, y entregando nombre y número de cada elemento. No utilizar comandos de búsqueda.
 
-1. Cantidad de hijos en la ecopirámide.
-2. Nombre de todos los productores.
-3. Cantidad total de consumidores.
-
-
+```
+$ python nvegacion_piramide.py
+Producers
+        -Plants: 100000
+        -Algae: 100000
+Primaryconsumers
+        -Deer: 1000
+        -Rabbit: 2000
+Secondaryconsumers
+        -Fox: 100
+        -Bear: 100
+Tertiaryconsumers
+        -Lion: 80
+        -Tiger: 50
+```
 
 ### Contenido de elementos
 
