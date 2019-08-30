@@ -33,7 +33,3 @@ Tertiaryconsumers
         -Lion: 80
         -Tiger: 50
 ```
-
-### Contenido de elementos
-
-### Aqui ira el contenido de elementos
