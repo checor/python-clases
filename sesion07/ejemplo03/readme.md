@@ -50,29 +50,3 @@ $ scrapy runspider primer_spider.py -o quotes.csv
 
 ![Resultado](resultado.png)
 
-
-## Partes de una araña
-
-### URLs
-
-Para definir las páginas iniciales a visitar, se entrega un iterable en el atributo `start_urls`, o bien, mediante la función `start_requests`.
-
-```python
-start_urls = [
-    'http://paginaprincipal.com/',
-]
-```
-
-### Parse
-
-Esta función indica cómo obtener la información relevante. Con `yield`, se puede entregar datos en forma de diccionario, y después, opcionalmente utilizar `response.follow`, para continuar navegando.
-
-```python
-yield {
-    'text': elemento.selector,
-
-}
-
-yield response.follow(siguiente_pagina, parser)
-```
-### Selectores
