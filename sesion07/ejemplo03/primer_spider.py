@@ -22,4 +22,5 @@ class QuotesSpider(scrapy.Spider):
         next_page = response.css('li.next a::attr("href")').get()
         if next_page is not None:
             # También podemos dirigirnos a otra página mediante el comando response.follow(url, parser)
+            # Este comando es opcional
             yield response.follow(next_page, self.parse)
