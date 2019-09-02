@@ -16,7 +16,7 @@ Tener una introducción a las librerías más utilizadas para análisis de datos
 * Matplotlib
   * [Ejemplo 03](ejemplo03/readme.md)
   * [Reto 03](reto03/readme.md)
-* Análisis de datos
+* Pandas
   * [Ejemplo 04](ejemplo04/readme.md)
   * [Reto 04](reto04/readme.md)
 

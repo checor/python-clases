@@ -28,4 +28,16 @@ Crear una gráfica de dispersión y un histograma en una misma ventana de gráfi
 
 ## Uso en Jupyter
 
-Generar en Jupyter una gráfica de caja de precios de hoteles, dividida en 6 regiones de precio.
+Para que matplotlib funcione con Jupyter, se necesita agregar una función *inline*, la cual permite definir su funcionamiento, estático o dinámico.
+
+* `%matplotlib inline`: Entrega la gráfica como imagen estática
+* `%matplotlib notebook`: Entrega una gráfica interactiva, pero sólo permite 1 a la vez.
+
+`sinwave.ipynb`
+
+Graficar la función seno en una libreta de Matplotlib. Probar con gráfica estática y dinámica.
+
+![Función seno](seno.png)
+
+
+
