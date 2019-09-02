@@ -1,0 +1,10 @@
+[
+{"name": "plants", "number": "100000", "type": "producers"},
+{"name": "algae", "number": "100000", "type": "producers"},
+{"name": "deer", "number": "1000", "type": "primaryconsumers"},
+{"name": "rabbit", "number": "2000", "type": "primaryconsumers"},
+{"name": "fox", "number": "100", "type": "secondaryconsumers"},
+{"name": "bear", "number": "100", "type": "secondaryconsumers"},
+{"name": "lion", "number": "80", "type": "tertiaryconsumers"},
+{"name": "tiger", "number": "50", "type": "tertiaryconsumers"}
+]

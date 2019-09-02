@@ -7,21 +7,22 @@ Realizar web scraping mediante el uso de Python en diferentes páginas, para que
 
 ## Organización de la sesión
 
-* Introducción
+* Beautiful Soup
   * [Ejemplo 01](ejemplo01/readme.md)
   * [Reto 01](reto01/readme.md)
-* Búsqueda y navegación
+* Navegación
   * [Ejemplo 02](ejemplo02/readme.md)
   * [Reto 02](reto02/readme.md)
-* Modificación e impresión
+* Scrapy
   * [Ejemplo 03](ejemplo03/readme.md)
-  * [Reto 03](reto03/readme.md)
-* Selenium
+* Spiders
   * [Ejemplo 04](ejemplo04/readme.md)
   * [Reto 04](reto04/readme.md)
-* PhatomJS
+* Selenium
   * [Ejemplo 05](ejemplo05/readme.md)
   * [Reto 05](reto05/readme.md)
+
+* [Postwork](postwork/readme.md)
 
 
 
