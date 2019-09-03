@@ -9,26 +9,26 @@
 ## Organización de la sesión
 
 * Presentación e instalación
-    * [Ejemplo 01](ejemplo01/readme.md)
+    * [Ejemplo 01](ejemplo01)
 * Variables y tipos de datos
-    * [Ejemplo 02](ejemplo02/readme.md)
-    * (Reto 02)[reto02]
+    * [Ejemplo 02](ejemplo02)
+    * [reto02](Reto 02)
 * Cadenas y formato
-    * [Ejemplo 03](ejemplo03/readme.md)
-    * (Reto 03)[reto03]
+    * [Ejemplo 03](ejemplo03)
+    * [reto03](Reto 03)
 * Operadores lógicos
-    * [Ejemplo 04](ejemplo04/readme.md)
-    * (Reto 04)[reto04]
+    * [Ejemplo 04](ejemplo04)
+    * [reto04](Reto 04)
 * Estructuras de control
-    * [Ejemplo 05](ejemplo05/readme.md)
-    * (Reto 05)[reto05]
+    * [Ejemplo 05](ejemplo05)
+    * [reto05](Reto 05)
 * Reto final
-    * (Reto 06)[reto06]
+    * [reto06](Reto 06)
 
 ## Postwork
 
 * Lineamientos y consejos para comenzar su proyecto con Python
-   *  (Postwork)[postwork]
+   *  [postwork](Postwork)
 
 
 
