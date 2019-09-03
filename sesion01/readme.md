@@ -12,23 +12,23 @@
     * [Ejemplo 01](ejemplo01)
 * Variables y tipos de datos
     * [Ejemplo 02](ejemplo02)
-    * [reto02](Reto 02)
+    * [Reto 02](reto02)
 * Cadenas y formato
     * [Ejemplo 03](ejemplo03)
-    * [reto03](Reto 03)
+    * [Reto 03](reto03)
 * Operadores lógicos
     * [Ejemplo 04](ejemplo04)
-    * [reto04](Reto 04)
+    * [Reto 04](reto04)
 * Estructuras de control
     * [Ejemplo 05](ejemplo05)
-    * [reto05](Reto 05)
+    * [Reto 05](reto05)
 * Reto final
-    * [reto06](Reto 06)
+    * [Reto 06](reto06)
 
 ## Postwork
 
 * Lineamientos y consejos para comenzar su proyecto con Python
-   *  [postwork](Postwork)
+   *  [Postwork](postwork)
 
 
 
