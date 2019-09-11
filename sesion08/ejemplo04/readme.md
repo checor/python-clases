@@ -58,6 +58,65 @@ Out[9]:
 
 ### Cargando datos
 
-PAra cargar información en un DataFrame, se pueden utilizar archivos CSV, JSON, Excel, entre otros.
+Para cargar información en un DataFrame, se pueden utilizar archivos CSV, JSON, Excel, entre otros.
 
-``
+```python
+In [1]: import pandas
+
+In [2]: from pandas.io.excel import ExcelWriter 
+
+In [3]: csv_file = pandas.read_csv("hoteles.csv")
+
+In [4]: csv_file
+Out[4]: 
+                                               name   price  rating
+0                                      Hotel Darcet  2160.0     4.5
+1    Holiday Inn Express Paris-Canal de la Villette  2828.0     4.0
+2                                    Atlantic Hôtel  3731.0     4.5
+3                         Hôtel Odessa Montparnasse  2514.0     4.0
+4                                     Hôtel Virgina  5204.0     4.0
+..                                              ...     ...     ...
+175                  Contact Hotel Alize Montmartre  3731.0     4.0
+176                      Melia Paris Champs Elysees  5210.0     4.0
+177    Hotel Etoile Saint-Ferdinand by HappyCulture  3692.0     4.0
+178                                     Hotel Doisy  4399.0     4.5
+179                                    Villa Brunel  3339.0     4.0
+
+[180 rows x 3 columns]
+
+In [5]: with ExcelWriter('hoteles.xlsx') as ew:  # Datos en Excel
+   ...:     csv_file.to_excel(ew) 
+   ...:   
+
+In [6]: csv_file.to_json('hoteles.json')  # Datos a JSON
+```
+
+### Mostrando datos
+
+Pandas puede mostrar datos con Matplotlib, de forma sencilla dada su integración con el mismo.
+
+```python
+In [10]: df = pandas.read_csv('hoteles.csv')
+
+In [11]: df.sort_values(['rating', 'price'])                                                                                                                                                                           
+Out[11]: 
+                                 name    price  rating
+25             BVJ Opera Youth Hostel    839.0     4.0
+114                       Zazie Hotel   1591.0     4.0
+32        Libertel Canal Saint-Martin   1750.0     4.0
+12   Auberge de Jeunesse MIJE  Fourcy   1871.0     4.0
+56                District République   1905.0     4.0
+..                                ...      ...     ...
+119           Mandarin Oriental Paris  22558.0     5.0
+148               Hôtel Plaza Athénée  26413.0     5.0
+145               The Peninsula Paris  26511.0     5.0
+27        Four Seasons Hotel George V  27682.0     5.0
+118                  Le Bristol Paris  29457.0     5.0
+
+[180 rows x 3 columns]
+
+In [12]: df.plot(title='Hoteles')  # Mostrando datos
+Out[12]: <matplotlib.axes._subplots.AxesSubplot at 0x12c772310>
+
+In [25]: plt.get_figure().savefig('hoteles.png')  # Guardando datos
+```
