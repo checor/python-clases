@@ -1,5 +1,5 @@
 ## Sesión 08
-# Data analysis
+# Computación numérica o científica
 
 ## Objetivos
 
